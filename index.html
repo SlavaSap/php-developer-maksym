@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Максим — PHP Developer | Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="nav-logo">
+                    <i class="fas fa-code"></i>
+                    <span>Максим</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Главная</a></li>
+                    <li><a href="#about">Обо мне</a></li>
+                    <li><a href="#experience">Опыт</a></li>
+                    <li><a href="#projects">Проекты</a></li>
+                    <li><a href="#skills">Навыки</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    Максим — <span class="gradient-text">PHP Developer</span>
+                </h1>
+                <p class="hero-subtitle">
+                    40 лет • 10 лет опыта в разработке на PHP
+                </p>
+                <p class="hero-description">
+                    Специализируюсь на создании современных веб-приложений, масштабируемых интернет-магазинов и надёжных корпоративных систем с использованием лучших практик и чистого кода. Помогу реализовать вашу идею на профессиональном уровне.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-envelope"></i> Связаться
+                    </a>
+                    <a href="#about" class="btn btn-secondary">
+                        <i class="fas fa-arrow-down"></i> Подробнее
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/hero.png" alt="Максим - PHP Developer" class="hero-img">
+            </div>
+        </div>
+
+        <!-- Floating animation elements -->
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Обо мне</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/about.png" alt="Максим" class="about-img">
+                </div>
+                <div class="about-text">
+                    <p class="about-description">
+                        Максим — опытный PHP-разработчик с более чем <span class="highlight">10-летним профессиональным опытом</span>
+                        в создании веб-приложений, интернет-магазинов и корпоративных систем. Имею глубокие знания в архитектуре программного обеспечения, оптимизации производительности и внедрении лучших практик разработки. Основной девиз: чистый код, надёжность и постоянное совершенствование.
+                    </p>
+                    <p class="about-description" style="margin-top: 1rem; color: var(--text-secondary);">
+                        За время работы я участвовал в разработке проектов различных масштабов — от стартапов до крупных корпоративных систем. Мне нравится работать в команде, делиться знаниями и находить инновационные решения для сложных задач. Постоянно учусь новым технологиям и следую последним тенденциям в веб-разработке.
+                    </p>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <h3>10+</h3>
+                            <p>Лет опыта</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>50+</h3>
+                            <p>Завершённых проектов</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>100%</h3>
+                            <p>Качество кода</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Опыт и Специализация</h2>
+            <div class="skills-cards">
+                <div class="skill-card glass-effect">
+                    <i class="fab fa-php"></i>
+                    <h3>PHP</h3>
+                    <p>Современный PHP 8.x с фреймворками Laravel, Symfony, Yii. ООП, асинхронность, микросервисы</p>
+                </div>
+                <div class="skill-card glass-effect">
+                    <i class="fas fa-database"></i>
+                    <h3>MySQL / PostgreSQL</h3>
+                    <p>Проектирование, оптимизация запросов, индексирование, администрирование БД</p>
+                </div>
+                <div class="skill-card glass-effect">
+                    <i class="fab fa-js"></i>
+                    <h3>JavaScript / TypeScript</h3>
+                    <p>ES6+, Vue.js, React, Node.js, асинхронное программирование, работа с API</p>
+                </div>
+                <div class="skill-card glass-effect">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML5 & CSS3</h3>
+                    <p>Семантическая разметка, адаптивный дизайн, анимации, работа с Sass/SCSS</p>
+                </div>
+                <div class="skill-card glass-effect">
+                    <i class="fab fa-git"></i>
+                    <h3>Git & DevOps</h3>
+                    <p>Контроль версий, GitHub/GitLab, CI/CD, Docker, развёртывание на серверах</p>
+                </div>
+                <div class="skill-card glass-effect">
+                    <i class="fas fa-code"></i>
+                    <h3>REST API / GraphQL</h3>
+                    <p>Проектирование архитектуры, безопасность, аутентификация, тестирование API</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Company Section -->
+    <section id="company" class="company">
+        <div class="container">
+            <div class="company-content">
+                <div class="company-info">
+                    <h2>Компания</h2>
+                    <h3>Solomono</h3>
+                    <p class="company-description">
+                        Максим работает в компании <span class="company-name">Solomono</span> — динамично развивающемся IT агентстве, специализирующемся на разработке и поддержке современных интернет-магазинов и веб-приложений. В Solomono я участвую в разработке высоконагруженных проектов, занимаюсь оптимизацией производительности, внедрением новых функциональностей и технического консультирования клиентов.
+                    </p>
+                    <p class="company-description" style="margin-top: 1rem; color: var(--text-secondary); font-size: 0.95rem;">
+                        Работаю в составе профессиональной команды разработчиков, дизайнеров и аналитиков. Наш коллектив создаёт решения, которые помогают клиентам развивать свой бизнес в интернете. Участвую в выборе технологических стеков, архитектурном проектировании и менторстве junior разработчиков.
+                    </p>
+                    <div class="company-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-check"></i>
+                            <span>Разработка веб-приложений</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-check"></i>
+                            <span>Интернет-магазины</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-check"></i>
+                            <span>Оптимизация производительности</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-check"></i>
+                            <span>Техническая поддержка</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="company-image">
+                    <img src="images/company.png" alt="Компания Solomono" class="company-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Навыки и Компетенции</h2>
+            <div class="skills-progress">
+                <div class="progress-item">
+                    <div class="progress-header">
+                        <span class="skill-name">PHP</span>
+                        <span class="skill-percent">95%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-progress="95"></div>
+                    </div>
+                </div>
+
+                <div class="progress-item">
+                    <div class="progress-header">
+                        <span class="skill-name">MySQL</span>
+                        <span class="skill-percent">90%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-progress="90"></div>
+                    </div>
+                </div>
+
+                <div class="progress-item">
+                    <div class="progress-header">
+                        <span class="skill-name">JavaScript</span>
+                        <span class="skill-percent">85%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-progress="85"></div>
+                    </div>
+                </div>
+
+                <div class="progress-item">
+                    <div class="progress-header">
+                        <span class="skill-name">HTML/CSS</span>
+                        <span class="skill-percent">95%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-progress="95"></div>
+                    </div>
+                </div>
+
+                <div class="progress-item">
+                    <div class="progress-header">
+                        <span class="skill-name">Git</span>
+                        <span class="skill-percent">90%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-progress="90"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Избранные проекты</h2>
+            <div class="projects-grid">
+                <div class="project-card glass-effect">
+                    <div class="project-image">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>Интернет-магазин электроники</h3>
+                    <p class="project-type">E-commerce • PHP + Laravel • MySQL</p>
+                    <p class="project-description">
+                        Разработал полнофункциональный интернет-магазин с более чем 10 000 товаров. Реализовал систему управления каталогом, корзину покупок, платёжный шлюз, систему доставки и личный кабинет пользователя. Оптимизировал производительность для обработки 1000+ одновременных пользователей.
+                    </p>
+                    <div class="project-stats">
+                        <span><i class="fas fa-users"></i> 50K+ пользователей</span>
+                        <span><i class="fas fa-zap"></i> +95% производ.</span>
+                    </div>
+                </div>
+
+                <div class="project-card glass-effect">
+                    <div class="project-image">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Аналитическая платформа SaaS</h3>
+                    <p class="project-type">Backend API • Symfony • PostgreSQL</p>
+                    <p class="project-description">
+                        Создал мощную аналитическую платформу для отслеживания метрик веб-сайтов. Разработал REST API с поддержкой real-time данных, внедрил систему кэширования Redis, создал документацию и Swagger интерфейс. Платформа обрабатывает 100M+ событий в день.
+                    </p>
+                    <div class="project-stats">
+                        <span><i class="fas fa-chart-bar"></i> 100M событий/день</span>
+                        <span><i class="fas fa-bolt"></i> 50ms отклик</span>
+                    </div>
+                </div>
+
+                <div class="project-card glass-effect">
+                    <div class="project-image">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>Корпоративная управления система</h3>
+                    <p class="project-type">Enterprise • Yii2 Framework • MySQL</p>
+                    <p class="project-description">
+                        Разработал комплексную систему управления проектами для корпорации. Функции включают управление сотрудниками, распределение задач, отслеживание времени, генерацию отчётов и интеграцию с 1С. Система используется 500+ сотрудниками ежедневно.
+                    </p>
+                    <div class="project-stats">
+                        <span><i class="fas fa-users"></i> 500+ сотруд.</span>
+                        <span><i class="fas fa-lock"></i> Secure</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Галерея</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item glass-effect">
+                    <img src="images/gallery1.png" alt="Фото 1" class="gallery-img">
+                    <h3>Мой путь</h3>
+                </div>
+                <div class="gallery-item glass-effect">
+                    <img src="images/gallery2.png" alt="Фото 2" class="gallery-img">
+                    <h3>На пляже</h3>
+                </div>
+                <div class="gallery-item glass-effect">
+                    <img src="images/gallery3.png" alt="Фото 3" class="gallery-img">
+                    <h3>За работой</h3>
+                </div>
+                <div class="gallery-item glass-effect">
+                    <div class="image-placeholder">
+                        <i class="fab fa-php"></i>
+                    </div>
+                    <h3>PHP Framework</h3>
+                </div>
+                <div class="gallery-item glass-effect">
+                    <div class="image-placeholder">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Базы данных</h3>
+                </div>
+                <div class="gallery-item glass-effect">
+                    <div class="image-placeholder">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Веб-приложения</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Свяжитесь со мной</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Контактная информация</h3>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>maksym.sapozhnikov@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Телефон</h4>
+                                <p>+38 (XXX) XXX-XX-XX</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Местоположение</h4>
+                                <p>Украина</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-link" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="social-link" title="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form glass-effect" id="contactForm">
+                    <div class="form-group">
+                        <input
+                            type="text"
+                            placeholder="Ваше имя"
+                            required
+                            class="form-input"
+                        >
+                    </div>
+                    <div class="form-group">
+                        <input
+                            type="email"
+                            placeholder="Ваш Email"
+                            required
+                            class="form-input"
+                        >
+                    </div>
+                    <div class="form-group">
+                        <textarea
+                            placeholder="Ваше сообщение"
+                            rows="5"
+                            required
+                            class="form-input"
+                        ></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">
+                        <i class="fas fa-paper-plane"></i> Отправить
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 Максим | PHP Developer | Solomono</p>
+                <div class="footer-links">
+                    <a href="#home">Главная</a>
+                    <a href="#about">Обо мне</a>
+                    <a href="#projects">Проекты</a>
+                    <a href="#skills">Навыки</a>
+                    <a href="#contact">Контакты</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTop" class="scroll-top" title="Наверх">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
